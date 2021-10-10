@@ -147,3 +147,19 @@ body {
       width: 200px;
     }
   }
+
+
+@media (max-width: 500px) {
+  input[type='text'] {
+    width: 100%;
+  }
+
+  .meals {
+    grid-template-columns: 1fr;
+  }
+
+  .meal {
+    height: 300px;
+    width: 300px;
+  }
+}
