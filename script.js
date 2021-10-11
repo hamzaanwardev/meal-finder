@@ -40,3 +40,9 @@ function searchMeal(e) {
             .join('');
         }
       });
+          // Clear search text
+    search.value = '';
+} else {
+  alert('Please enter a search term');
+}
+}
